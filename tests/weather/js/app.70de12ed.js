@@ -105,7 +105,7 @@
             C = a.n(g),
             y = a("3452"),
             S = {
-                getWallpaper() { return C.a.get("http://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1").then(e => { return e.data }) },
+                getWallpaper() { return C.a.get("https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1").then(e => { return e.data }) },
                 getClimate(e, t) {
                     let a = "https://weather-ydn-yql.media.yahoo.com/forecastrss",
                         r = "GET",
